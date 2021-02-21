@@ -1,0 +1,85 @@
+* {
+	font-family: "Kumbh Sans", sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    /* color: hsl(0, 0%, 59%); */
+    color: hsl(227, 10%, 46%)
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	background-color: hsl(185, 75%, 39%);
+	background-image: url("../images/bg-pattern-top.svg"),
+		url("../images/bg-pattern-bottom.svg");
+	background-repeat: no-repeat;
+    background-size: 1600px 1600px;
+    background-position: right 45vw bottom 35vh, left 42.5vw top 47.5vh;
+}
+
+section {
+    text-align: center;
+}
+
+.attribution {
+    font-size: 18px;
+    font-weight: normal;
+    color: white;
+    text-shadow: 0 0.1em 0.2em black;
+}
+
+a {
+    text-decoration: underline;
+    -webkit-text-decoration-style: wavy;
+    text-decoration-style: wavy;
+    font-size: 18px;
+    font-weight: bold;
+    color: coral;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+	background-color: white;
+	overflow: hidden;
+}
+
+.profile_pic {
+    display: block;
+	aspect-ratio: 1;
+	border-radius: 50%;
+    width:100%;
+    height:100%;
+    border: 1vmin solid white;
+    box-sizing: border-box;
+}
+
+.personal_info .name, .stats .number {
+    font-size: 18px;
+    font-weight: bold;
+    color: hsl(229, 23%, 23%)
+}
+
+.personal_info .name {
+    margin-right: 0.25em;
+}
+
+.personal_info .location {
+    font-size: 14px;
+}
+
+.stats {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.stats .desc {
+    margin: 0;
+    letter-spacing: 0.15em;
+    padding: 0;
+    font-size: 10px;
+}
