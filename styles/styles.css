@@ -24,15 +24,14 @@ section {
 
 .attribution {
     font-size: 18px;
+    text-align: center;
     font-weight: normal;
     color: white;
     text-shadow: 0 0.1em 0.2em black;
 }
 
 a {
-    text-decoration: underline;
-    -webkit-text-decoration-style: wavy;
-    text-decoration-style: wavy;
+    text-decoration: none;
     font-size: 18px;
     font-weight: bold;
     color: coral;
@@ -70,10 +69,8 @@ a {
     font-size: 14px;
 }
 
-.stats {
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+.stats td {
+    text-align: center;
 }
 
 .stats .desc {
